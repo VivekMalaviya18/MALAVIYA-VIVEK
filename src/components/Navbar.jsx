@@ -47,14 +47,20 @@ const containerVariants = {
 
   return (
     <>
-        <nav className='fixed right-0 top-0 z-30 p4'>
-            <button onClick={toggleMenu} className='rounded-md p-2'>
+        <nav className='fixed right-4 top-5 z-30'>
+            <motion.button 
+            onClick={toggleMenu} 
+            className='rounded-md p-3 border border-red-500/0 hover:border-lime-300 transition-colors duration-300'
+            initial={{rotate: 0, scale:1}}
+            animate={isOpen ? { rotate: 90, scale: 1 } : { rotate: 0, scale: 1 }}
+            transition={{type: 'spring', stiffness: 260, damping: 10, ease:'easeInOut'}}
+            >
                 {isOpen ? (
-                    <FaTimes className='text-2xl h-6 w-6' />
+                    <FaTimes className='text-2xl h-6 w-6 text-lime-300 transition-transform duration-300' />
                 ) : (
-                    <FaBars className='text-2xl h-6 w-6' />
+                    <FaBars className='text-2xl h-6 w-6 text-white transition-transform duration-300' />
                 )}
-            </button>
+            </motion.button>
         </nav>
         <AnimatePresence>
         {isOpen && (

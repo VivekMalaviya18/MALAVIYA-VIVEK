@@ -1,6 +1,8 @@
 import React from 'react'
 import { LuImport } from 'react-icons/lu'
 import benson from '../assets/benson.webp'
+import fifth_one from '../assets/fifth_one.webp'
+import hero from '../assets/hero.webp'
 
 const Hero = () => {
   return (
@@ -19,7 +21,7 @@ const Hero = () => {
             </a>
         </div>
         <div className="w-full">
-            <img src={benson} alt='Vivek Malaviya' className='mt-8 h-96 w-full object-cover'/>
+            <img src={hero} alt='Vivek Malaviya' className='mt-8 h-96 w-full object-cover'/>
         </div>
     </section>
   )

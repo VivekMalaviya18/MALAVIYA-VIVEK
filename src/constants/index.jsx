@@ -16,91 +16,70 @@ import project6 from "../assets/project6.webp";
 import project7 from "../assets/project7.webp";
 import project8 from "../assets/project8.webp";
 import project9 from "../assets/project9.webp";
+import p1 from "../assets/p1.webp";
+import p2 from "../assets/p2.webp";
+import p3 from "../assets/p3.webp";
+import p4 from "../assets/p4.webp";
+import p5 from "../assets/p5.webp";
+
 
 export const LINKS = [
   { id: "projects", name: "projects" },
   { id: "about", name: "about" },
-  { id: "experience", name: "experience" },
+  { id: "education", name: "education" },
   { id: "contact", name: "Contact" },
 ];
 
 export const MARQUEE_TEXT =
-  "React, Next.js, Node, MongoDb, Tailwind, MySql, Javascript, Redis,";
+  "Git, Github, React, Javascript, Tailwind, HTML, Bootstrap, Figma, Canva, ";
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Zentry Clone",
     description:
-      "A full-featured e-commerce website built with React and Node.js.",
-    imgSrc: project1,
-    link: "https://example.com/ecommerce-website",
+      "A high-quality replica of the Zentry website, built using React, Tailwind CSS, and GSAP for smooth animations and a modern UI. This project showcases dynamic scrolling effects, responsive design, and performance optimization. It demonstrates expertise in frontend development, interactive UI/UX, and component-based architecture.",
+    imgSrc: p1,
+    link: "https://github.com/VivekMalaviya18/Zentry-clone",
   },
   {
     id: 2,
-    title: "Social Media App",
+    title: "V Chatbot",
     description:
-      "A social media application with real-time chat and notifications.",
-    imgSrc: project2,
-    link: "https://example.com/social-media-app",
+      "An AI-powered chatbot built with React, Tailwind CSS, and the Gemini API, offering real-time responses and an intuitive UI. It features smooth animations, dynamic user interactions, and a sleek, modern design. This project highlights expertise in API integration, conversational AI, and interactive frontend development.",
+    imgSrc: p2,
+    link: "https://github.com/VivekMalaviya18/v-chat",
   },
+  
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "PARK.ME",
     description:
-      "A personal portfolio website to showcase projects and skills.",
-    imgSrc: project3,
-    link: "https://example.com/portfolio-website",
+      "Park.Me is a parking management system built with PHP and MySQL, designed to streamline parking slot reservations and management. It offers real-time slot availability, user-friendly booking, and efficient vehicle tracking. With a focus on database optimization and smooth UI/UX, this project highlights my skills in web development and backend management.",
+    imgSrc: p3,
+    link: "https://github.com/VivekMalaviya18/Park.Me",
   },
   {
     id: 4,
-    title: "Blog Platform",
-    description:
-      "A blogging platform with user authentication and content management.",
-    imgSrc: project4,
-    link: "https://example.com/blog-platform",
-  },
-  {
-    id: 5,
-    title: "Task Management Tool",
-    description: "A task management tool to organize and prioritize work.",
-    imgSrc: project5,
+    title: "Tradesmint",
+    description: "TradesMint is a trading course selling platform built with ASP.NET and C#, designed to offer a seamless browsing and purchasing experience. It features intuitive course categorization, a dynamic UI, and efficient data management. Developed with a scalable and maintainable architecture. ",
+    imgSrc: p4,
     link: "https://example.com/task-management-tool",
   },
   {
-    id: 6,
-    title: "Online Learning Platform",
+    id: 5,
+    title: "Portfolio Website",
     description:
       "An online learning platform offering various courses and resources.",
-    imgSrc: project6,
-    link: "https://example.com/online-learning-platform",
+    imgSrc: p5,
+    link: "https://github.com/VivekMalaviya18/Vivek-Portfolio",
   },
-  {
-    id: 7,
-    title: "Fitness Tracker",
-    description: "A mobile application to track fitness activities and goals.",
-    imgSrc: project7,
-    link: "https://example.com/fitness-tracker",
-  },
-  {
-    id: 8,
-    title: "Recipe App",
-    description: "An app for browsing and saving various cooking recipes.",
-    imgSrc: project8,
-    link: "https://example.com/recipe-app",
-  },
-  {
-    id: 9,
-    title: "Weather Dashboard",
-    description:
-      "A weather dashboard providing current weather data and forecasts.",
-    imgSrc: project9,
-    link: "https://example.com/weather-dashboard",
-  },
+  
+  
 ];
 
 export const ABOUT =
-  "As a dedicated Full Stack Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in both front-end and back-end technologies, I excel in building robust and scalable solutions. My expertise includes working with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like MongoDB and SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.";
+  "Motivated and detail-oriented fresher with a strong foundation in front-end development,specializing in HTML, CSS, JavaScript, and React. Proficient in creating dynamic, responsive,and user-friendly web interfaces with a keen eye for design and functionality. Skilled in implementing modern web development practices and passionate about crafting engaging user experiences. Eager to apply academic knowledge and project experience to contribute to innovative development teams and enhance technical expertise in a professional environment";
 
 export const EXPERIENCES = [
   {
@@ -110,44 +89,48 @@ export const EXPERIENCES = [
     description:
       "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
   },
+  
+];
+
+export const EDUCATION = [ 
   {
-    company: "Facebook",
-    role: "Frontend Developer",
-    year: "01/2021 - 11/2023",
-    description:
-      "Implemented user interfaces for web applications using React and Redux. Worked closely with designers to ensure seamless user experiences. Optimized components for maximum performance across a vast array of web-capable devices and browsers. Participated in code reviews and provided feedback to maintain high code quality.",
+    school: "Parul University",
+    degree: "Master of Computer Application",
+    year: "2023 - 2025",
   },
+  {
+    school: "Saurashtra University",
+    degree: "Bachelor of Computer Application",
+    year: "2020 - 2023",
+  },
+  
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={26} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
+    href: "https://discordapp.com/users/962022056814334043",
     icon: <FaDiscord fontSize={26} className="hover:opacity-80" />,
   },
+  // {
+  //   href: "https://instagram.com/",
+  //   icon: <FaInstagram fontSize={26} className="hover:opacity-80" />,
+  // },
   {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={26} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
+    href: "https://x.com/Vivek41465785?t=JhrkxpU79Nf5CoF3sfMxMQ&s=09",
     icon: <FaXTwitter fontSize={26} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/VivekMalaviya18",
     icon: <FaGithub fontSize={26} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/vivekmalaviya404/",
     icon: <FaLinkedin fontSize={26} className="hover:opacity-80" />,
   },
 ];
 
 export const CONTACT = {
   text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, Id love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out to discuss how we can work together to achieve your goals.",
-  email: "hi@benson.langford.me",
-  phone: "+(221 - 7654567892)",
+  email: "malaviyavivek56@gmail.com",
+  phone: "+91 9328340255",
 };

@@ -25,7 +25,7 @@ const Contact = () => {
             </a>
         ))}
     </div>
-    <p className='my-8 text-center text-gray-400'>
+    <p className='my-8 text-center text-gray-400 text-sm'>
         &copy; 2025 Vivek Malaviya. All rights reserved
     </p>
    </section>
