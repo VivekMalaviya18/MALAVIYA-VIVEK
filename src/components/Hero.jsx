@@ -1,7 +1,5 @@
 import React from 'react'
 import { LuImport } from 'react-icons/lu'
-import benson from '../assets/benson.webp'
-import fifth_one from '../assets/fifth_one.webp'
 import hero from '../assets/hero.webp'
 
 const Hero = () => {

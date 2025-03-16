@@ -7,21 +7,14 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import project1 from "../assets/project1.webp";
-import project2 from "../assets/project2.webp";
-import project3 from "../assets/project3.webp";
-import project4 from "../assets/project4.webp";
-import project5 from "../assets/project5.webp";
-import project6 from "../assets/project6.webp";
-import project7 from "../assets/project7.webp";
-import project8 from "../assets/project8.webp";
-import project9 from "../assets/project9.webp";
+
 import p1 from "../assets/p1.webp";
 import p2 from "../assets/p2.webp";
 import p3 from "../assets/p3.webp";
 import p4 from "../assets/p4.webp";
 import p5 from "../assets/p5.webp";
-
+import me3 from "../assets/me-three.jpg";
+import two from "../assets/2.jpg";
 
 export const LINKS = [
   { id: "projects", name: "projects" },
@@ -64,13 +57,13 @@ export const PROJECTS = [
     title: "Tradesmint",
     description: "TradesMint is a trading course selling platform built with ASP.NET and C#, designed to offer a seamless browsing and purchasing experience. It features intuitive course categorization, a dynamic UI, and efficient data management. Developed with a scalable and maintainable architecture. ",
     imgSrc: p4,
-    link: "https://example.com/task-management-tool",
+    link: "https://github.com/VivekMalaviya18/Tradesmint",
   },
   {
     id: 5,
     title: "Portfolio Website",
     description:
-      "An online learning platform offering various courses and resources.",
+      "A Portfolio website build with React, Tailwind CSS, and Framer Motion for smooth animations and a modern UI. This project showcases dynamic scrolling effects, responsive design, and performance optimization. It demonstrates expertise in frontend development, interactive UI/UX, and component-based architecture.",
     imgSrc: p5,
     link: "https://github.com/VivekMalaviya18/Vivek-Portfolio",
   },
@@ -79,7 +72,7 @@ export const PROJECTS = [
 ];
 
 export const ABOUT =
-  "Motivated and detail-oriented fresher with a strong foundation in front-end development,specializing in HTML, CSS, JavaScript, and React. Proficient in creating dynamic, responsive,and user-friendly web interfaces with a keen eye for design and functionality. Skilled in implementing modern web development practices and passionate about crafting engaging user experiences. Eager to apply academic knowledge and project experience to contribute to innovative development teams and enhance technical expertise in a professional environment";
+  " i specialize in building intuitive, user-centric web interfaces using React, JavaScript, and Tailwind CSS. With a strong focus on performance optimization and clean design, I collaborate on end-to-end projects, adapt quickly to emerging technologies, and deliver high-impact solutions that elevate user engagement in dynamic environments.";
 
 export const EXPERIENCES = [
   {
@@ -94,14 +87,22 @@ export const EXPERIENCES = [
 
 export const EDUCATION = [ 
   {
-    school: "Parul University",
-    degree: "Master of Computer Application",
-    year: "2023 - 2025",
+    degree: 'Master of Computer Application (MCA)',
+    school: 'Parul University, Vadodara',
+    year: 'Aug 2023 - Apr 2025 (Ongoing)',
+    desc: 'Focused on advanced programming, software engineering, and system design.'
   },
   {
-    school: "Saurashtra University",
-    degree: "Bachelor of Computer Application",
-    year: "2020 - 2023",
+    degree: 'Bachelor of Computer Application (BCA)',
+    school: 'Kamani Science College, Amreli',
+    year: 'Aug 2020 - Apr 2023',
+    desc: 'Covered fundamentals of programming, databases, and web development.'
+  },
+  {
+    degree: 'HSC & SSC',
+    school: 'Shah J.C. & J.C. Vidhyasankul, Navsari',
+    year: '2016 - 2020',
+    desc: 'Completed higher secondary and secondary education with focus on commerce.'
   },
   
 ];
