@@ -50,15 +50,15 @@ const containerVariants = {
         <nav className='fixed right-4 top-5 z-30'>
             <motion.button 
             onClick={toggleMenu} 
-            className='rounded-md p-3 border border-red-500/0 hover:border-lime-300 transition-colors duration-300'
+            className='rounded-md p-3 border border-red-500/0 hover:border-orange-300 transition-colors duration-300'
             initial={{rotate: 0, scale:1}}
             animate={isOpen ? { rotate: 90, scale: 1 } : { rotate: 0, scale: 1 }}
             transition={{type: 'spring', stiffness: 260, damping: 10, ease:'easeInOut'}}
             >
                 {isOpen ? (
-                    <FaTimes className='text-2xl h-6 w-6 text-lime-300 transition-transform duration-300' />
+                    <FaTimes className='text-2xl h-6 w-6 text-orange-300 transition-transform duration-300' />
                 ) : (
-                    <FaBars className='text-2xl h-6 w-6 text-white transition-transform duration-300' />
+                    <FaBars className='text-2xl h-6 w-6 text-white  transition-transform duration-300' />
                 )}
             </motion.button>
         </nav>
@@ -75,7 +75,7 @@ const containerVariants = {
                         <motion.li
                         variants={linkVariants}
                         key={link.id}>
-                            <a href={`#${link.id}`} onClick={toggleMenu} className='text-5xl font-semibold uppercase tracking-wide hover:text-lime-300 lg:text-9xl'>{link.name}
+                            <a href={`#${link.id}`} onClick={toggleMenu} className='text-5xl font-semibold uppercase tracking-wide hover:text-orange-300 lg:text-9xl'>{link.name}
                             </a>
                         </motion.li>
                     ))}

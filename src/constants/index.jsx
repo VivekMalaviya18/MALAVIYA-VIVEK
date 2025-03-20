@@ -14,7 +14,7 @@ import p3 from "../assets/p3.webp";
 import p4 from "../assets/p4.webp";
 import p5 from "../assets/p5.webp";
 import me3 from "../assets/me-three.jpg";
-import two from "../assets/2.jpg";
+
 
 export const LINKS = [
   { id: "projects", name: "projects" },
@@ -110,7 +110,7 @@ export const EDUCATION = [
 export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://discordapp.com/users/962022056814334043",
-    icon: <FaDiscord fontSize={26} className="hover:opacity-80" />,
+    icon: <FaDiscord fontSize={26} className="hover:scale-140 transition-transform duration-300 " />,
   },
   // {
   //   href: "https://instagram.com/",
@@ -118,15 +118,15 @@ export const SOCIAL_MEDIA_LINKS = [
   // },
   {
     href: "https://x.com/Vivek41465785?t=JhrkxpU79Nf5CoF3sfMxMQ&s=09",
-    icon: <FaXTwitter fontSize={26} className="hover:opacity-80" />,
+    icon: <FaXTwitter fontSize={26} className="hover:scale-140 transition-transform duration-300" />,
   },
   {
     href: "https://github.com/VivekMalaviya18",
-    icon: <FaGithub fontSize={26} className="hover:opacity-80" />,
+    icon: <FaGithub fontSize={26} className="hover:scale-140 transition-transform duration-300" />,
   },
   {
     href: "https://www.linkedin.com/in/vivekmalaviya404/",
-    icon: <FaLinkedin fontSize={26} className="hover:opacity-80" />,
+    icon: <FaLinkedin fontSize={26} className="hover:scale-140 transition-transform duration-300" />,
   },
 ];
 

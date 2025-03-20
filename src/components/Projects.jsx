@@ -4,7 +4,7 @@ import { PROJECTS } from '../constants';
 const Projects = () => {
   return (
     <section className='p-8' id='projects'>
-      <h2 className='my-10 text-center text-3xl lg:text-8xl cursor-default font-extrabold tracking-wide hover:text-lime-300'>My Work</h2>
+      <h2 className='my-10 text-center text-3xl lg:text-8xl cursor-default font-extrabold tracking-wide'>My Work</h2>
       
 
       {/* Grid Layout for better alignment */}
