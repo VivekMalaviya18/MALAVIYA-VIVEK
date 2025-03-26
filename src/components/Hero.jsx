@@ -74,7 +74,7 @@ const Hero = () => {
             {/* Resume Button */}
             <div className="mt-8 z-10">
                 <a
-                    href="/MALAVIYA VIVEK RESUME KS.pdf"
+                    href="/Vivek_Malaviya_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     download="download"
